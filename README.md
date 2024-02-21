@@ -12,7 +12,7 @@ You may use [nvm](https://github.com/nvm-sh/nvm)
 to install node, then
 
 ```sh
-brew install cmake ninja extra-cmake-modules gettext iso-codes xkeyboardconfig nlohmann-json
+brew install cmake ninja extra-cmake-modules gettext iso-codes xkeyboardconfig nlohmann-json wget
 ./install-deps.sh
 npm i -g pnpm
 pnpm --prefix=fcitx5-webview i
